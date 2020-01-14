@@ -1,0 +1,12 @@
+#!/include/bin/perl;
+$DNA1='AGCTCATCG';
+print "1st DNA Sequence:$DNA1\n";
+$DNA2='CAGATCTAATC';
+print "2nd DNA Sequence:$DNA2\n";
+$DNA3 = "$DNA1$DNA2";
+print"1st DNAcon:$DNA3\n";
+$DNA4=$DNA1 . $DNA2;
+print"2nd DNAcon:$DNA4\n";
+$DNA5=$DNA1,$DNA2;
+print"3rd DNAcon:$DNA5\n";
+exit;
